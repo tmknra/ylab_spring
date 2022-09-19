@@ -1,15 +1,12 @@
 package com.edu.ulab.app.service.impl;
 
 import com.edu.ulab.app.dto.UserDto;
-import com.edu.ulab.app.entity.Entity;
 import com.edu.ulab.app.entity.UserEntity;
 import com.edu.ulab.app.mapper.UserMapper;
 import com.edu.ulab.app.service.UserService;
-import com.edu.ulab.app.storage.Storage;
 import com.edu.ulab.app.storage.StorageService;
 import com.edu.ulab.app.storage.StorageServiceImpl;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
